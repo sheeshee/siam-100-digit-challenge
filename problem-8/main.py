@@ -559,8 +559,6 @@ if __name__ == "__main__":
     with Timer() as t:
         low, high, u = solver.stop_when_center_is(target_temperature)
 
-
-
     # Print results to console
     print('lower bound: %.4f @ %.4f s' % low)
     print('upper bound: %.4f @ %.4f s' % high)

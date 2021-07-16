@@ -12,7 +12,7 @@ To forty digits the correct solution is
 0.3233674316777787613993700879521704466510
 ```
 
-The solution is known to [10,002 digits](http://www-m3.ma.tum.de/m3old/bornemann/challengebook/Chapter1/sol1_10002.txt).
+The solution is known to more than [10,002 digits](http://www-m3.ma.tum.de/m3old/bornemann/challengebook/Chapter1/sol1_10002.txt).
 
 ## My Implementation
 

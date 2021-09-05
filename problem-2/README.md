@@ -1,4 +1,4 @@
-# Problem 2
+# Problem 2: Reliability Amid Chaos
 
 A photon moving at speed 1 in the x-y plane starts at time t = 0 at
 (x, y) = (1/2, 1/10) heading due east. Around every integer lattice point (i, j)

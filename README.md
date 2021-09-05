@@ -1,6 +1,6 @@
 # SIAM 100 Digit Challenge
 
-Solutions to the SIAM 100 digit challenge.
+Implementations to the solutions of the SIAM 100 digit challenge.
 
 * Problem 1: [A Twisted Tail](problem-1/)
   * Python

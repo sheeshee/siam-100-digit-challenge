@@ -1,4 +1,4 @@
-# Problem 8
+# Problem 8: In the Moment of Heat
 
 A square plate [-1, 1] x [-1, 1] is at temperature u = 0. At time t = 0 the
 temperature is increased to u = 5 along one of the four sides while being held

@@ -1,4 +1,4 @@
-# Problem 1
+# Problem 1: A Twisted Tail
 
 What is the value of the following?
 

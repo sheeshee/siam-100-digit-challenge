@@ -88,16 +88,16 @@ Using $\alpha := \frac{\tau}{2h^2}$ and matching similar terms we arrive at the 
 
 $$
 (1 + 4\alpha)u_h(t, x, y) - \alpha[
-  u_h(t, x - h, y)
-  + u_h(t, x + h, y)
-  + u_h(t, x, y - h)
-  +  u_h(t, x, y + h)
-] = (1 - 4\alpha)u_h(t - \tau, x, y) + \alpha[
-  u_h(t - \tau, x - h, y)
-  + u_h(t - \tau, x + h, y)
-  + u_h(t - \tau, x, y - h)
-  +  u_h(t - \tau, x, y + h)
-]
+    u_h(t, x - h, y)
+    + u_h(t, x + h, y)
+    + u_h(t, x, y - h)
+    +  u_h(t, x, y + h)
+  ] = (1 - 4\alpha)u_h(t - \tau, x, y) + \alpha[
+    u_h(t - \tau, x - h, y)
+    + u_h(t - \tau, x + h, y)
+    + u_h(t - \tau, x, y - h)
+    +  u_h(t - \tau, x, y + h)
+  ]
 $$
 
 Flattening the lattice row-wise and applying the boundary conditions $b$ gives the following linear system:

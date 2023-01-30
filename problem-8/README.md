@@ -68,7 +68,7 @@ scheme is implemented _via_ a combination of the techniques listed here:
 
 Where $u_h$ is the numerical approximation of the solution $u$, $\tau$ is a small time step, $h$ is a small spatial step in either of the two spatial dimensions,  the scheme can be expressed mathematically as the following:
 
-```
+$$
 u_h(t, x, y) = u_h(t - \tau, x, y) -  \frac{\tau}{2h^2}
     \left[
         4 u_h(t - \tau, x, y)
@@ -82,11 +82,11 @@ u_h(t, x, y) = u_h(t - \tau, x, y) -  \frac{\tau}{2h^2}
         - u_h(t, x, y - h)
         - u_h(t, x, y + h)
     \right]
-```
+$$
 
 Using $\alpha := \frac{\tau}{2h^2}$ and matching similar terms we arrive at the following:
 
-```
+$$
 (1 + 4\alpha)u_h(t, x, y) - \alpha[
   u_h(t, x - h, y)
   + u_h(t, x + h, y)
@@ -98,7 +98,7 @@ Using $\alpha := \frac{\tau}{2h^2}$ and matching similar terms we arrive at the 
   + u_h(t - \tau, x, y - h)
   +  u_h(t - \tau, x, y + h)
 ]
-```
+$$
 
 Flattening the lattice row-wise and applying the boundary conditions $b$ gives the following linear system:
 
